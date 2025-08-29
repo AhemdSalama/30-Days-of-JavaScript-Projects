@@ -18,8 +18,7 @@ Each project is organized in its own folder. Below is a list of all projects wit
 
 ## License
 This repository is for learning and personal use. Feel free to use or modify any project for your own practice.
-
+Playlist I am learning from => https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9
 ---
 
-Feel free to follow along, suggest improvements, or fork the repo to start your own challenge!.
-Playlist I am learning from => https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9
+Feel free to follow along, suggest improvements, or fork the repo to start your own challenge!
