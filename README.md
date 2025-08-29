@@ -8,7 +8,7 @@ Each project is organized in its own folder. Below is a list of all projects wit
 | Day | Project Name      | Description |
 |-----|-------------------|-------------|
 | 1   | Weather App       | A simple app that fetches and displays weather data for a city using the OpenWeatherMap API. |
-| 2   | coming soon        | coming soon  |
+| 2   | QR Generator | Enter any text or URL in the input field and click the "Generate QR Code" button or press Enter. The app will instantly display a QR code image based on your input. |
 
 
 ## How to Use
