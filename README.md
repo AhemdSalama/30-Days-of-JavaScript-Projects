@@ -21,5 +21,5 @@ This repository is for learning and personal use. Feel free to use or modify any
 
 ---
 
-Feel free to follow along, suggest improvements, or fork the repo to start your own challenge!
+Feel free to follow along, suggest improvements, or fork the repo to start your own challenge!.
 Playlist I am learning from => https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9
