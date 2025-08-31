@@ -30,25 +30,44 @@
 
         generateQrBtn.addEventListener('click', () => {
             generateQR();
-            qrText.value = "";
         })
         qrText.addEventListener('keyup', (event) => {
             if (event.key === "Enter") {
                 generateQR();
-                qrText.value = "";
+
             }
         })
         document.addEventListener("keyup", () => {
             if (event.key === "c") {
                 qrText.value = "";
                 qrImg.src = "";
+                qrImg.classList.remove("show-img")
+
                 console.log("done");
+            }
+        })
+        document.addEventListener("keyup", () => {
+            if (event.key === "f") {
+                qrText.focus();
             }
         })
 
 
         function generateQR() {
-            qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + qrText.value;
+            if (qrText.value.length > 0) {
+                qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + qrText.value;
+                qrText.value = "";
+                qrImg.classList.add("show-img");
+
+                console.log("in")
+            }
+            else {
+                qrText.classList.add('error');
+                setTimeout(() => {
+                    qrText.classList.remove('error')
+                }, 1000);
+                console.log("shake");
+            }
         }
     </script>
 </body>
